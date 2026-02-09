@@ -7,7 +7,7 @@
     "build": "cross-env TAILWIND_DISABLE_OXIDE=1 next build",
     "start": "next start",
     "lint": "eslint",
-    "cf:build": "npx @opennextjs/opennext@latest build --platform=cloudflare"
+    "cf:worker": "npx @opennextjs/cloudflare"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.94.1",
