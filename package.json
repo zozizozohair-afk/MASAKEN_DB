@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "cf:build": "npx @opennextjs/opennext@latest build --platform=cloudflare"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.94.1",
@@ -25,6 +26,7 @@
     "eslint": "^9",
     "eslint-config-next": "latest",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "@cloudflare/next-on-pages": "^1.13.0"
   }
 }
